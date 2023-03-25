@@ -1,0 +1,15 @@
+title: House Price Analytics
+
+description: This project analyses house prices
+
+owner: hello@timeflow.systems
+
+main_branch: main
+
+# In this section we map your projects branches to DBT targets asd
+
+branch_deployments:
+    main : house_dev
+    test : house_test
+    my_new_feature : house_dev
+    add_a_new_model : house_dev
