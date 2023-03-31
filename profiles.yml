@@ -1,21 +1,21 @@
 house_price_analytics:
 
-  target: hp_dev
+  target: house_dev
   outputs:
-    hp_dev:
+    house_dev:
       type: clickhouse
-      schema: hp_dev
+      schema: house_dev
       host: 35.189.109.115
       password: ''
     
-    hp_test:
+    house_test:
       type: clickhouse
-      schema: hp_test
+      schema: house_test
       host: 35.189.109.115
       password: ''
 
-    hp_production:
+    house_production:
       type: clickhouse
-      schema: hp_production
+      schema: house_production
       host: 35.189.109.115
       password: ''
